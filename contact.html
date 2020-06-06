@@ -1,0 +1,90 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+ 	<style>  
+    ul{ 
+ 	    Float: right; 
+ 	 	Margin-right: 20px; 
+ 	}    
+ 	.navbar{
+        height: 60px;  	 	  
+ 	 	background: rgba(0,0,0, 0.5); 
+        width: 100%; 
+		position: inherit;
+    }     
+ 	li{
+  	    display: inline; 
+	} 
+ 	
+a{ 
+ 	Text-decoration: none;  	 
+       	 color: white;  	 	
+        	padding: 6px 13px;  	 	                 
+        	font-size: 17px;  	 
+    } 
+ 	.first{ 
+        border-radius: 3px; 
+        background: red; 
+    }
+    body{  	 	                       
+        margin:0;     
+    }
+	.title
+	{
+		float: left;
+		width: fit-content;
+		margin: 10px 0 0 50px;
+		font-size: 30px;
+		color: white;
+	}
+	h1{
+		position: absolute;
+		top: 20%;
+		left: 30%;
+		font-size: 30px;
+		color: black;
+		text-align: center;
+	}
+	.my-form{
+		margin-left: 30px;
+		margin-top: 200px;
+	}
+</style> 
+</head> 
+<body> 
+ 	<nav class="navbar"> 
+		<div class="title"> FoodYa </div>
+		<ul> 
+			<li><a href="home.html"> Home</a></li> 
+			<li><a href="services.html"> Services </a></li> 
+			<li><a href="about.html"> About us </a></li> 
+			<li><a href="" class="first"> Contact us </a></li> 
+			
+		</ul> 
+	</nav> 
+	<h1>	Send us your feedback about our service </h1>
+	<center>
+	<form class="my-form" action="">
+		Your name:
+		<br>
+		<input name="name" type="text" placeholder="Enter your name"/>
+		<br><br>
+		Your email:
+		<br>
+		<input name="email" type="email" placeholder="Enter your email"/>
+		<br><br>
+		Subject:
+		<br>
+		<input name="subject" type="text" placeholder="Message subject"/>
+		<br><br>
+		Your Message:
+		<br>
+		<textarea name="message" rows="10" cols="50">
+		</textarea>
+		<br>
+		<button type="submit"> send</button>
+	</form>
+	</center>
+</body> 
+</html> 
+
